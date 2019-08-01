@@ -560,7 +560,7 @@ li {
     height: 100%;
     top: 0;
     left: 0;
-    cursor: url(img/core-img/back.png), auto !important;
+    cursor: url(images/core-img/back.png), auto !important;
     z-index: 9;
 }
 
@@ -571,7 +571,7 @@ li {
     height: 100%;
     top: 0;
     right: 0;
-    cursor: url(img/core-img/next.png), auto !important;
+    cursor: url(images/core-img/next.png), auto !important;
 }
 
 /* --------------------
@@ -801,7 +801,7 @@ li {
     height: 100%;
     top: 0;
     left: 0;
-    cursor: url(img/core-img/back.png), auto !important;
+    cursor: url(images/core-img/back.png), auto !important;
     z-index: 9;
 }
 
@@ -812,7 +812,7 @@ li {
     height: 100%;
     top: 0;
     right: 0;
-    cursor: url(img/core-img/next.png), auto !important;
+    cursor: url(images/core-img/next.png), auto !important;
 }
 
 
@@ -1435,7 +1435,7 @@ li {
 .bg-pattern {
     background-attachment: fixed;
     background-position: center center;
-    background-image: url(img/bg-img/bg-pattern.jpg);
+    background-image: url(images/bg-img/bg-pattern.jpg);
     position: relative;
     background-size: cover;
     z-index: 1;
