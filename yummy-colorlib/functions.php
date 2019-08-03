@@ -117,9 +117,10 @@ add_action( 'widgets_init', 'yummy_colorlib_widgets_init' );
 function yummy_colorlib_scripts() {
 	
 	wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css',false,null,'all');
-	wp_enqueue_style( 'style', get_template_directory_uri() . '/css/responsive/responsive.css',false,null,'all'); 
+	wp_enqueue_style( 'responsive', get_template_directory_uri() . '/css/responsive/responsive.css',false,null,'all'); 
 	
-	 
+	wp_register_script( 'jquery', get_template_directory_uri() . '/js/jquery/jquery-2.2.4.min.js', false, null, false );
+    wp_enqueue_script('jquery'); 
     wp_register_script( 'popper', get_template_directory_uri() . '/js/bootstrap/popper.min.js', false, null, true );
     wp_enqueue_script('popper');
 	wp_register_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap/bootstrap.min.js',false, null, true  );
