@@ -1,6 +1,10 @@
 <?php
  
- 
+// Register Custom Navigation Walker
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+
+
+
 
 if ( ! function_exists( 'yummy_colorlib_setup' ) ) :
  
@@ -83,10 +87,10 @@ function yummy_colorlib_widgets_init() {
 		'name'          => __( 'Sidebar', 'yummy_colorlib' ),
 		'id'            => 'sidebar-1',
 		'description'   => __( 'Add widgets here to appear in your sidebar.', 'yummy_colorlib' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'before_widget' => '<section id="%1$s" class="widget %2$s widget-title">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h6 class="text-center">',
+		'after_title'   => '</h6>',
 	) );
 
 	register_sidebar( array(

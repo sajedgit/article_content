@@ -1493,3 +1493,34 @@ li {
 	color: #fff;
 	cursor: pointer;
 }
+
+/* ----- Start of Custom css ----- */
+
+.yummy-slogan{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 19px;
+	margin-bottom: 0;
+	padding: 0px 0 32px 0;
+	display: inline-block;
+	color: #232d37;
+	font-style: italic;
+}
+.logo_area .yummy-logo{
+padding: 0px;
+}
+
+.widget-title > ul > li > a
+{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #232d37;
+	line-height: 1.25;
+}
+.widget-title > ul
+{
+	margin-bottom: 30px;
+}
+
+
+/* ----- End of Custom css ----- */
+
